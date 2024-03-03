@@ -14,12 +14,15 @@
         <header>
             <h1>Gerador de QRCode</h1>
         </header>
-        <main>
-            <p>Insira seu link para gerar o qrcode:</p>
-            <input type="text" name="link" id="urlCode" placeholder="Insira o link">
-            <button onclick="qrcodeGerador()"> Gerar </button>
-        </main>
-        <div id="qrcode"></div>
+        <div id="container">
+            <main>
+                <p>Insira seu link para gerar o qrcode:</p>
+                <input type="text" name="link" id="urlCode" placeholder="Insira o link">
+                <button onclick="qrcodeGerador()"> Gerar </button>
+            </main>
+            <div id="qrcode"></div>
+        </div>
+        
         <script src="index.js"></script>
     </body>
 </html>
